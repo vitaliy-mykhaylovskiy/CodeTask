@@ -3,7 +3,7 @@ The solution consist of two projects: console and test.
 The console project contains `StringUtils.RearrangeWords` which is not yet implemented.
 You should imlement the method according to the spec below.
 
-#Rearrange Words in a Sentence
+# Rearrange Words in a Sentence
 
 Given a sentence text (A sentence is a string of space-separated words) in the following format:
 - First letter is in upper case.
@@ -14,7 +14,7 @@ If two words have the same length, arrange them in their original order.
 
 Return the new text following the format shown above.
 
-##Example 1:
+## Example 1:
 
 ```
 Input: text = "Coding is cool"
@@ -23,7 +23,7 @@ Explanation: There are 3 words, "Coding" of length 6, "is" of length 2 and "cool
 Output is ordered by length and the new first word starts with capital letter.
 ```
 
-##Example 2:
+## Example 2:
 
 ```
 Input: text = "Keep calm and code on"
@@ -36,7 +36,7 @@ Explanation: Output is ordered as follows:
 "code" 4 letters.
 ```
 
-##Example 3:
+## Example 3:
 
 ```
 Input: text = "To be or not to be"
