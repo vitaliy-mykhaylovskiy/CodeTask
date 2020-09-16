@@ -16,7 +16,7 @@ You can use either VS Code or Visual Studio while crafting this - whatever is mo
 ## "Online" Coding Session
 
 We're going to talk a little bit about implementation details of the "offline" task. So, there is no need to send it in advance.
-Also, there will be severaladditiona small tasks you need to code online.
+Also, there will be several additional small tasks you need to code online.
 Don't be stressed out - they are all simple and straightforward.
 You're free to use Intellisense hints, Google whatever you need in order to make it working.
 This should not take more than an hour as well.
