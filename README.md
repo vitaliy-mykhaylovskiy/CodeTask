@@ -1,13 +1,13 @@
-# Introduction 
+## Intro 
 The coding part of the technical interview consists of two parts: "offline" and "online".
 
 ## "Offline" Coding Session
 
 The main puprpose of this simple coding task - to make you more confident with the process we use for an "online" coding session.
 You can work on it at time that is corfortable for you. It should not take more than an hour or so.
-We're not looking for "perfect" solution. First of all we're looking for "working" solution.
+We're not looking for "perfect" solution. First of all we're looking for a "working" solution.
 
-So, the VS solution in this repo consist of two projects: console and test.
+So, there are two projects in the VS solution in this repo: console and test.
 The console project contains `StringUtils.RearrangeWords` method which is not yet implemented.
 You should imlement the method according to the **"Rearrange Words in a Sentence"** spec below.
 Make sure all tests in the test project are passed.
@@ -16,8 +16,9 @@ You can use either VS Code or Visual Studio while crafting this - whatever is mo
 ## "Online" Coding Session
 
 We're going to talk a little bit about implementation details of the "offline" task. So, there is no need to send it in advance.
-Also, there will be several similar simple small tasks you need to code online.
-Don't be stressed out. You're free to use Intellisense hints, Google whatever you need in order to make it working.
+Also, there will be severaladditiona small tasks you need to code online.
+Don't be stressed out - they are all simple and straightforward.
+You're free to use Intellisense hints, Google whatever you need in order to make it working.
 This should not take more than an hour as well.
 
 Make sure you have [Visual Studio Live Share](https://visualstudio.microsoft.com/services/live-share/) extension installed locally.
