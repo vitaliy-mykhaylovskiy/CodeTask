@@ -17,18 +17,18 @@ Return the new text following the format shown above.
 ##Example 1:
 
 ```
-*Input*: text = "Coding is cool"
-*Output*: "Is cool coding"
-*Explanation*: There are 3 words, "Coding" of length 6, "is" of length 2 and "cool" of length 4.
+**Input**: text = "Coding is cool"
+**Output**: "Is cool coding"
+**Explanation**: There are 3 words, "Coding" of length 6, "is" of length 2 and "cool" of length 4.
 Output is ordered by length and the new first word starts with capital letter.
 ```
 
 ##Example 2:
 
 ```
-*Input*: text = "Keep calm and code on"
-*Output*: "On and keep calm code"
-*Explanation*: Output is ordered as follows:
+**Input**: text = "Keep calm and code on"
+**Output**: "On and keep calm code"
+**Explanation**: Output is ordered as follows:
 "On" 2 letters.
 "and" 3 letters.
 "keep" 4 letters in case of tie order by position in original text.
@@ -39,6 +39,6 @@ Output is ordered by length and the new first word starts with capital letter.
 ##Example 3:
 
 ```
-*Input*: text = "To be or not to be"
-*Output*: "To be or to be not"
+**Input**: text = "To be or not to be"
+**Output**: "To be or to be not"
 ```
