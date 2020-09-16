@@ -1,9 +1,30 @@
 # Introduction 
-The solution consist of two projects: console and test.
-The console project contains `StringUtils.RearrangeWords` which is not yet implemented.
-You should imlement the method according to the spec below.
+The coding part of the technical interview consists of two parts: "offline" and "online".
 
-# Rearrange Words in a Sentence
+## "Offline" Coding Session
+
+The main puprpose of this simple coding task - to make you more confident with the process we use for an "online" coding session.
+You can work on it at time that is corfortable for you. It should not take more than an hour or so.
+We're not looking for "perfect" solution. First of all we're looking for "working" solution.
+
+So, the VS solution in this repo consist of two projects: console and test.
+The console project contains `StringUtils.RearrangeWords` method which is not yet implemented.
+You should imlement the method according to the **"Rearrange Words in a Sentence"** spec below.
+Make sure all tests in the test project are passed.
+You can use either VS Code or Visual Studio while crafting this - whatever is more convenient for you.
+
+## "Online" Coding Session
+
+We're going to talk a little bit about implementation details of the "offline" task. So, there is no need to send it in advance.
+Also, there will be several similar simple small tasks you need to code online.
+Don't be stressed out. You're free to use Intellisense hints, Google whatever you need in order to make it working.
+This should not take more than an hour as well.
+
+Make sure you have [Visual Studio Live Share](https://visualstudio.microsoft.com/services/live-share/) extension installed locally.
+We are going to use it during online coding session. 
+Also, keep in mind that in order to start Live Share session you should use either Microsoft or GitHub account.
+
+## Rearrange Words in a Sentence
 
 Given a sentence text (A sentence is a string of space-separated words) in the following format:
 - First letter is in upper case.
@@ -14,7 +35,7 @@ If two words have the same length, arrange them in their original order.
 
 Return the new text following the format shown above.
 
-## Example 1:
+### Example 1:
 
 ```
 Input: text = "Coding is cool"
@@ -23,7 +44,7 @@ Explanation: There are 3 words, "Coding" of length 6, "is" of length 2 and "cool
 Output is ordered by length and the new first word starts with capital letter.
 ```
 
-## Example 2:
+### Example 2:
 
 ```
 Input: text = "Keep calm and code on"
@@ -36,7 +57,7 @@ Explanation: Output is ordered as follows:
 "code" 4 letters.
 ```
 
-## Example 3:
+### Example 3:
 
 ```
 Input: text = "To be or not to be"
